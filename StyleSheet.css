@@ -1,0 +1,66 @@
+﻿body 
+{
+    background-color: lightsalmon;
+    
+}
+h1
+{
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    text-decoration-color:blue;
+    font-size:50px;
+    font-style:italic;
+    
+}
+
+#data
+{
+    border-left-width: 2px;
+    padding-left: 20px;
+    
+    margin-top: 50px;
+}
+ul
+{
+    list-style-type:none;
+}
+.checked 
+{
+    text-decoration: line-through;
+    opacity: 0.4;
+    font-size:12px;
+    transition: 2s;
+    text-decoration-color:darkviolet;
+    
+}
+.unchecked
+{
+    text-decoration:none;
+}
+
+.center
+{
+text-align:center;
+}
+
+.division {
+    overflow: auto;
+}
+
+.division input{
+   float:left;
+}
+
+.division button{
+    float:right;
+}
+
+#globaldiv
+{
+    width:1000px;
+    margin-left:400px;
+}
+
+
+
+
