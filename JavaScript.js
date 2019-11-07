@@ -18,7 +18,7 @@ function createlist()
     cross.innerHTML = "X";
     labelptr = document.createElement("label");
     labelptr.innerHTML = inputdata;
-     
+     document.getElementById("data").value="";
     checkbox.onclick = function () {
 console.log(this);
        console.log(this.nextSibling);
